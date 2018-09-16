@@ -8,7 +8,7 @@ package com.laibao.chapter0
 object Greeting extends App{
 
   for (i <- 0 to 3) {
-    print(i + " ,")
+    print(s"$i ,")
   }
   println("Scala Rocks")
 }
