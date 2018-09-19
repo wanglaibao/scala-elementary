@@ -6,6 +6,6 @@ object SerialAssignments {
   var b = 2
 
   //Expression to type Unit dosen't conform to expected type Int
-  a = b = 3
+  //a = b = 3
 
 }
