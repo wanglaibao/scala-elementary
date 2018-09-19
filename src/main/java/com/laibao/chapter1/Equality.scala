@@ -16,5 +16,9 @@ object Equality {
       println(str1.eq(str2))
 
       println(str1.eq(str3))
+
+      println(str1.equals(str2))
+
+      println(str1.equals(str3))
   }
 }
