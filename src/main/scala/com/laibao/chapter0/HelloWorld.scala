@@ -7,4 +7,19 @@ package com.laibao.chapter0
  */
 object HelloWorld extends App{
   println( "Hello World!" )
+  println( "Hello World!" )
+  println( "Hello World!" )
+  println( "Hello World!" )
+  println( "Hello World!" )
+  println( "Hello World!" )
+  println( "Hello World!" )
+  println( "Hello World!" )
+  println( "Hello World!" )
+  println( "Hello World!" )
+  println( "Hello World!" )
+  println( "Hello World!" )
+  println( "Hello World!" )
+  println( "Hello World!" )
+  println( "Hello World!" )
+  println( "Hello World!" )
 }

@@ -7,7 +7,8 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <java.version>1.8</java.version>
-    <scala.version>2.12.6</scala.version>
+    <!--<scala.version>2.12.6</scala.version>-->
+    <scala.version>2.12.8</scala.version>
     <junit.version>4.12</junit.version>
   </properties>
 
@@ -18,6 +19,22 @@
       <artifactId>scala-library</artifactId>
       <version>${scala.version}</version>
     </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.scala-lang/scala-compiler -->
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-compiler</artifactId>
+      <version>${scala.version}</version>
+    </dependency>
+
+
+    <!-- https://mvnrepository.com/artifact/org.scala-lang/scala-reflect -->
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-reflect</artifactId>
+      <version>${scala.version}</version>
+    </dependency>
+
 
     <dependency>
       <groupId>junit</groupId>
